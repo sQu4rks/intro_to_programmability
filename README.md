@@ -2,6 +2,18 @@
 
 Welcome to the FY20 edition of the partner interactive webinar (PIW) series focused on programmability. In this repository you will find a written version of the content covered during our 4 technical fundamentals sessions.
 
+This content is intended for you to follow along and try out. Programming is learned by doing so each section includes tips and tricks, common pitfalls and exercises with solutions for you to solve. 
+
+> :warning: This is a common pitfall or warning.
+
+> :computer: This is an exercises. They might contain sample code that you need to extend upon like this:
+> ```python3
+> print("Hello {}")
+> ```
+
+> :wrench: Here you will find some background information.
+
+
 
 ## Sessions
 
