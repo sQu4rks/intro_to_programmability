@@ -29,7 +29,13 @@ For these exercises you will find solutions. You can view the solution by clicki
 
 ## Sessions
 
-* [Introduction to Python - Part I](sessions/python_one/Readme.md)
+### Introduction to Python
+Python is one of the most popular programming languages of our time and the powerhouse behind most of Cisco’s API efforts. If there is a Cisco API chances are high that there will be a software development kit for that API in python. 
+
+#### Part I
+In part one of this three-parted training we will start from scratch and get familiar with the basic concepts of python like variables, loops and functions.
+[Go to section](sessions/python_one/Readme.md)
+
 * [Introduction to Python - Part II](sessions/python_two/Readme.md)
 * [Introduction to Python - Part III](sessions/python_three/Readme.md)
 * [REST API Fundamentals](sessions/rest_fundamentals/Readme.md)
