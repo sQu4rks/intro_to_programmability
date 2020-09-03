@@ -32,10 +32,12 @@ For these exercises you will find solutions. You can view the solution by clicki
 ### Introduction to Python
 Python is one of the most popular programming languages of our time and the powerhouse behind most of Cisco’s API efforts. If there is a Cisco API chances are high that there will be a software development kit for that API in python. 
 
-#### Part I
 In part one of this three-parted training we will start from scratch and get familiar with the basic concepts of python like variables, loops and functions.
-[Go to section](sessions/python_one/Readme.md)
+[Go to session](sessions/python_one/Readme.md)
 
-* [Introduction to Python - Part II](sessions/python_two/Readme.md)
-* [Introduction to Python - Part III](sessions/python_three/Readme.md)
-* [REST API Fundamentals](sessions/rest_fundamentals/Readme.md)
+In part two of this three-parted training we will build on the basics from last week to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with some of the useful modules that come included with the python standard library. [Go to session](sessions/python_two/Readme.md)
+
+In the final part of this three-parted training we will use the knowledge acquired over the past weeks to build a small python project from start to finish [Go to  session](sessions/python_three/Readme.md)
+
+### REST API Fundamentals
+REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](sessions/rest_fundamentals/Readme.md)
