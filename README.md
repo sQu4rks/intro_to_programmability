@@ -42,7 +42,7 @@ In the final part of this three-parted training we will use the knowledge acquir
 ### REST API Fundamentals
 REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](sessions/rest_fundamentals/Readme.md)
 
-|| <!-- empty table header -->
-|:--:| <!-- table header/body separator with center formatting -->
-| I'm centered! | <!-- cell gets column's alignment -->  
-    
+<div align="center">
+   
+   [Prev]() - [Next](sessions/python_one/Readme.md)
+</div>
