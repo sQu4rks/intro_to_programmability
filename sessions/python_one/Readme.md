@@ -9,3 +9,9 @@
   
   ```
 </details>
+
+
+<div align="right">
+   
+   [Prev](Readme.md) - [Next](sessions/python_one/Readme.md)
+</div>
