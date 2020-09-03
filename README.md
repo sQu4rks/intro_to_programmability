@@ -6,6 +6,8 @@ This content is intended for you to follow along and try out. Programming is lea
 
 > :warning: This is a common pitfall or warning.
 
+> :wrench: Here you will find some background information.
+
 > :computer: This is an exercises. They might contain sample code that you need to extend upon like this:
 > 
 > Modify the code so that it says hello and includes your name
@@ -22,8 +24,6 @@ For these exercises you will find solutions. You can view the solution by clicki
   print("Hello Marcel")
   ```
 </details>
-
-> :wrench: Here you will find some background information.
 
 
 
