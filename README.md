@@ -7,9 +7,21 @@ This content is intended for you to follow along and try out. Programming is lea
 > :warning: This is a common pitfall or warning.
 
 > :computer: This is an exercises. They might contain sample code that you need to extend upon like this:
+> 
+> Modify the code so that it says hello and includes your name
 > ```python3
-> print("Hello {}")
+> print("Hello")
 > ```
+
+For these exercises you will find solutions. You can view the solution by clicking on the text
+
+<details>
+  <summary>Click here to show solution</summary>
+  
+  ```python3
+  print("Hello Marcel")
+  ```
+</details>
 
 > :wrench: Here you will find some background information.
 
