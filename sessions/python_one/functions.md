@@ -45,6 +45,8 @@ my_first_function()
   ```
 </details>
 
+## Functions with Arguments and Returns
+
 Functions can have `arguments`. These are variables that are passed into the function to modify the functions behaviour. Lets modify the function above to print the name based on a argument. 
 
 ```python
