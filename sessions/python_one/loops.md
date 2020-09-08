@@ -172,7 +172,7 @@ Be advised that python stops checking after the first condition is met! So if a 
 > * for multiples of both five and three print **FizzBuzz** instead of the number
 > * In all other cases print the number
 > 
-> Two tips: 
+> Three tips: 
 > 
 > 1) To check if a number is a multiple of another number you can use this conditional:
 > 
@@ -190,6 +190,9 @@ Be advised that python stops checking after the first condition is met! So if a 
 > age = 17
 > if age > 10 and age < 18:
 >   print("The person is a teenager")
+> ```
+> 
+> 3) Remember for loops? They might come in handy in this exercise.
 
 <details>
   <summary>Click here to show solution</summary>
