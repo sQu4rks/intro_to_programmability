@@ -188,6 +188,6 @@ int_1 = int(text_1)
 
 <div align="right">
    
-   [Prev](sessions/python_one/Readme.md) - [Next](sessions/python_one/loops.md)
+   [Prev](Readme.md) - [Next](loops.md)
 </div>
 
