@@ -143,14 +143,120 @@ for switch in l:
         number_inactive += 1
     elif status == "unknown":
         number_unknown += 1
-    
+
   print("Number of active switches: " + str(number_active))
   print("Number of unknown switches: " + str(number_unknown))
   print("Number of inactive switches: " + str(number_inactive))
   ```
 </details>
 
+## Dictionaries
 
+The last puzzle piece we need are *dictionaries*. *Dictionaries* or *dicts* are a way of associating a key with a value. This is a quite common requirement. Let's say you want to store configuration information or information about a user. This is where dictionaries shine!
+
+We initialize or declare a dictionary as follows:
+
+```python
+
+d = {}
+```
+
+We can now go ahead an assign values:
+
+```python
+
+d["key"] = "value"
+```
+
+A example would be a dictionary holding some information about a user:
+
+```python 
+
+user = {}
+
+user["first_name"] = "Marcel"
+user["last_name"] = "Neidinger"
+user["age"] = 24
+```
+
+We can then access a value by its *key* using the key as an index:
+
+```python
+user = {}
+
+user["first_name"] = "Marcel"
+user["last_name"] = "Neidinger"
+user["age"] = 24
+
+print(user["age"]) # This is the access
+```
+
+> :computer: Do it for yourself! Declare a `user` dictionary with the keys `first_name`, `last_name` and `age` and then print them all out!
+
+<details>
+  <summary>Click here to show solution</summary>
+  
+  ```python
+  
+  user = {}
+
+  user["first_name"] = "Marcel"
+  user["last_name"] = "Neidinger"
+  user["age"] = 24
+  
+  print(user["first_name"])
+  print(user["last_name"])
+  print(user["age"])
+  ```
+
+</details>
+
+### Iterating over dictionaries
+
+Quite often we want to access all elements in a dictionary and sometimes (i.e. if that dictionary is returned to us by an API) we don't exactly know the keys. We can use our for loop to get rid of that problem!
+
+```python
+
+user = {}
+
+user["first_name"] = "Marcel"
+user["last_name"] = "Neidinger"
+user["age"] = 24
+
+for key in user.keys():
+    print(user[key])
+```
+
+> :wrench: The function `dict.keys()` just returns a list of all the keys. We are using the for-each loop again!
+
+> :computer: Rewrite the code from the last exercise, the one printing out all the properties of the user dictionary, using the for-each loop and the `keys()` function.
+> 
+> You can use this boilerplate: 
+> 
+> ```python
+> user = {}
+>
+> user["first_name"] = "Marcel"
+> user["last_name"] = "Neidinger"
+> user["age"] = 24
+> ```
+
+<details>
+  <summary>Click here to show solution</summary>
+  
+  ```python
+  
+  user = {}
+
+  user["first_name"] = "Marcel"
+  user["last_name"] = "Neidinger"
+  user["age"] = 24
+  
+  for key in user.keys():
+    print(user[key])
+  ```
+
+</details>
 <div align="right">
    
    [Prev](functions.md) - Next
