@@ -8,5 +8,5 @@ So lets get started!
 
 <div align="right">
    
-   [Prev](/README.md) - [Next](sessions/python_one/variables.md)
+   [Prev](/README.md) - [Next](variables.md)
 </div>
