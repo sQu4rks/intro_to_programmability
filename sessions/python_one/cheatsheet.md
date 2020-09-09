@@ -1,9 +1,9 @@
-# Cheatsheet for Day One
+# Cheatsheet for Python Programmability - Part 1
 
-This cheatsheet aims to provide a quick recap of all we have covered on day one. 
+This cheatsheet aims to provide a quick recap of all we have covered in part one of our three-part series on programmability with python. You can find the full version of the write up [here](/README.md). 
 
 ## Variables
-
+[Link to Section](variables.md)
 * Variables have a name and are assigned with the `=` operator. Example: `a = 10`
 * Variables have data types that define what kind of values they hold. 
 * The data types are:
@@ -36,7 +36,7 @@ a_as_text = str(a)
   * `float()` to convert to floating point number
 
 ## Loops
-
+[Link to Section](loops.md)
 * We can use `for` loops to execute a operation multiple times
 
 ```python
@@ -47,7 +47,7 @@ for a in range(0, 10):
 * The range provided is including the starting point and **excluding** the last number. This means that, for a range like `range(0, 5)`, the numbers will be `0,1,2,3,4` not including the last number 5.
 
 ## Conditionals 
-
+[Link to Section](loops.md)
 * We can use `if` clauses to specify conditionals
 * A `if` clause has one or more conditionals that, if met, will be executed. 
 * We can have additonal conditionals (using `elif`) and a catch-all that gets executed if non of the conditionals is met (using `else`)
@@ -73,7 +73,7 @@ else:
 | `a % b == 0`  | True if a can be divided by b without a remainder |
 
 ## Functions
-
+[Link to Section](functions.md)
 * Functions allow you to encapsulate code for later re-use
 
 ```python
