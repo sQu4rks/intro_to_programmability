@@ -71,3 +71,30 @@ else:
 | `a < b`       | True if a is strictly less than b                 |
 | `a <= b`      | True if a is less of equal than b                 |
 | `a % b == 0`  | True if a can be divided by b without a remainder |
+
+## Functions
+
+* Functions allow you to encapsulate code for later re-use
+
+```python
+
+def my_function_name():
+ print("Hello!")
+```
+ 
+ * Functions can have one or more arguments
+ 
+ ```python 
+ 
+ def my_function_name(argument_one, argument_two):
+  print("Argument 1 is: " + str(argument_one))
+  print("Argument 2 is: " + str(argument_two))  
+```
+
+* Functions can return information
+
+```python
+
+def my_function(name):
+ return "Hi my name is " + str(name)
+```
