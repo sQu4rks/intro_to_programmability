@@ -1,0 +1,73 @@
+# Cheatsheet for Day One
+
+This cheatsheet aims to provide a quick recap of all we have covered on day one. 
+
+## Variables
+
+* Variables have a name and are assigned with the `=` operator. Example: `a = 10`
+* Variables have data types that define what kind of values they hold. 
+* The data types are:
+  * `string` for text
+  * `int` for whole numbers
+  * `boolean` for boolean(true/false)
+  * `float` for floating point numbers
+  * `None` for nothing
+
+```python
+
+an_integer = 10
+an_float = 50.0
+text = "This is a text"
+an_boolean = True
+an_nothing = None
+```
+
+* You can convert(or *cast*) between variables of different data types
+
+```python
+
+a = 10
+a_as_text = str(a)
+```
+* The conversion functions are
+  * `str()` to convert to string
+  * `bool()` to convert to boolean
+  * `int()` to convert to integer
+  * `float()` to convert to floating point number
+
+## Loops
+
+* We can use `for` loops to execute a operation multiple times
+
+```python
+for a in range(0, 10):
+  print("Iteration #" + str(a))
+```
+* Mind the indention. This is the loop body that gets executed
+* The range provided is including the starting point and **excluding** the last number. This means that, for a range like `range(0, 5)`, the numbers will be `0,1,2,3,4` not including the last number 5.
+
+## Conditionals 
+
+* We can use `if` clauses to specify conditionals
+* A `if` clause has one or more conditionals that, if met, will be executed. 
+* We can have additonal conditionals (using `elif`) and a catch-all that gets executed if non of the conditionals is met (using `else`)
+
+```python
+
+age = 10
+if age == 12:
+  print("Age is 12")
+elif age == 15:
+  print("Age is 15")
+else:
+  print("Age is something else")
+```
+
+| **Operator**  | **Description**                                   |
+|---------------|---------------------------------------------------|
+| `a == b`      | True if a is equal to b                           |
+| `a > b`       | True if a is strictly greater than b              |
+| `a >= b`      | True if a is greater or equal than b              |
+| `a < b`       | True if a is strictly less than b                 |
+| `a <= b`      | True if a is less of equal than b                 |
+| `a % b == 0`  | True if a can be divided by b without a remainder |
