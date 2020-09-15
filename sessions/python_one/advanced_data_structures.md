@@ -259,5 +259,5 @@ for key in user.keys():
 </details>
 <div align="right">
    
-   [Prev](functions.md) - Next
+   [Prev](functions.md) - [Next](/sessions/python_two/Readme.md)
 </div>
