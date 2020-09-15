@@ -163,5 +163,5 @@ Coming back to our example of `random.choices` this is what we are doing when we
 
 <div align="right">
    
-   [Prev](standard_library.md) - [Next](random.md)
+   [Prev](standard_library.md) - [Next](json.md)
 </div>
