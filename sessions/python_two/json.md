@@ -92,5 +92,5 @@ With that, we have covered two modules of the standard library we will be using 
 
 <div align="right">
    
-   [Prev](random.md) - Next
+   [Prev](random.md) - [Next](/sessions/python_three/Readme.md)
 </div>
