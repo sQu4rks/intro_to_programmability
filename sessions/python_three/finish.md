@@ -10,5 +10,5 @@ example. Functionality you could add includes
 
 <div align="right">
    
-   [Prev](done.md) - Next
+   [Prev](done.md) - [Next](/sessions/rest_fundamentals/Readme.md)
 </div>
