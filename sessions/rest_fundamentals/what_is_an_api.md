@@ -15,7 +15,10 @@ In this capacity, APIs can have an not insignificant impact on innovation. Imagi
 
 Need to be sold more? For infrastructure, APIs allow us to automate the boring tasks or personalize said infrastructure to deliver a experience that more closer solves a pain point. So API could also be an acronym for *Ability to Personalize Infrastructure* and who doesn't want personalized infrastructure without the added cost of personalizing infrastructure for each and every user? 
 
+So how to implement this technically? We need a standardized way for machines to talk
+that is both easy to use and powerful. This is what the *REST* standard is for and this is also the standard that we will explore in this session.
+
 <div align="right">
    
-   [Prev](Readme.md) - [Next](what_is_an_api.md)
+   [Prev](Readme.md) - [Next](what_is_REST.md)
 </div>
