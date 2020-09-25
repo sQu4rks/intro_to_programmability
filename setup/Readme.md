@@ -1,4 +1,4 @@
-# Setup for Computer for Programmability
+# Setup your Computer for Programmability
 
 This series so far has used the online editor at [repl.it](https://repl.it/languages/python3). While this is convenient we might want to have our own local development environment that we can use for our projects. 
 
