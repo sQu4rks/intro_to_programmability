@@ -42,6 +42,12 @@ In the final part of this three-parted training we will use the knowledge acquir
 ### REST API Fundamentals
 REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](sessions/rest_fundamentals/Readme.md)
 
+## Setup 
+
+Throughout this course we will use the free and web-based online editor at [repl.it](https://repl.it/languages/python3) so that you don't have to setup anything on your local machine. 
+
+After these sessions we highly recommend you setup your computer as a local development workstation. To make this easy you can find a section on how to do this in Mac OS X, Windows and Linux included. [Go to session](setup/Readme.md)
+
 <div align="right">
    
    Prev - [Next](sessions/python_one/Readme.md)
