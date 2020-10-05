@@ -115,8 +115,68 @@ But why did we talk about HTTP again? Because REST is build upon it!
 
 When dealing with a REST API we are using *HTTP requests* to access, modify or create resources on a server. The server then returns a *HTTP response* that contains the resource we have accessed, modified or created with our *HTTP request*.
 
+In REST, we use the URI of our HTTP request to specify which resource we would like to access. As an example let's look at a request to the Webex Teams API that retrieves all the user information for the user. 
+
+Since we want to retrieve information we are going to use `GET`. 
+
+Next, we need to define the *resource* we would like to access. The Webex Teams API has a resource called *people*, available in version 1 of the api, so our URI becomes: `/api/v1/people`.
+
+Next we need to identify the person we want the data of. What kind of identifier is used here is specified by the API. In the case of the Webex Teams API we could either use a `personId` or the keyword `me` which we are going to do in this example.
+
+Our final request line thus looks like this: `GET /api/v1/people/me`.
+
+The Webex API server then does a bunch of operations to retrieve all these informations from its backend system. The beauty of the REST API architecture style really is that we don't **need to know** what the API server is doing in the background. All we need to know is the resources available, how they are identified, and what kind of information we can carry out on them. 
+
+After all computing is done the Webex API will return us the requested resource via a *HTTP response* that could look like this: 
+
+```
+HTTP/1.1 200 OK
+Date: Mon, 05 Oct 2020 10:00:31 GMT
+Content-Type: application/json
+
+{
+   "id": "Y2lzY29zcGFyazovL3VzLA”,
+   "emails": [
+      "mneiding@cisco.com",
+   ],
+   "firstName": "Marcel",
+   "lastName": "Neidinger",
+   [...] # More lines omitted for brevity
+}
+```
 ![sketch of a http request and response](../../res/rest_schematics.png)
 
+### HTTP Methods and their associated operations
+
+In a REST API, each operation that can be carried out on a resource is represented by a HTTP Method. A well-designed REST API should use
+
+* `GET` to retrieve a resource or a list of resources
+* `POST` to create a new resource
+* `DELETE` to delete a resource 
+* `PATCH` to modify a resource
+* `PUT` to completely replace a resource
+
+Sending (i.e. *creating*) a new message on the Webex Teams API would be done using a `POST` request while you could delete a message with a `DELETE` request. 
+
+### Resources in REST
+
+The last puzzle piece we need is to understand how REST represents resources. While you can use many different data formats the most common these days is *JSON*. In the example above you saw that the information about our user are returned as a json-formatted string. 
+
+In the same way we can also use json to *modify* or *create* new resources. To create a new resource we would send a `POST` request that, in the request body, contains the resource we would want to create. Following the example mentioned above, here is what a HTTP request for creating a message with the Webex Teams API would look like:
+
+```
+POST /api/v1/messages 
+Content-Type: application/json
+
+{
+   "toPersonEmail": "mneiding@cisco.com",
+   "text": "Hi, this is a message from the API"
+}
+```
+
+What we would get back is a HTTP response with status code `201 Created`. 
+
+With the theory taken care of, lets have a look at how we can explore REST APIs using a graphical interface called *Postman*. 
 
 <div align="right">
    
