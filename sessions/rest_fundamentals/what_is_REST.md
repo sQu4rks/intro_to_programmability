@@ -178,6 +178,8 @@ What we would get back is a HTTP response with status code `201 Created`.
 
 With the theory taken care of, lets have a look at how we can explore REST APIs using a graphical interface called *Postman*. 
 
+> :rocket: If you want to know more about the theory behind REST APIs you can have a look at the [REST API Theoretical Deep Dive](../extras/rest_theory/Readme.md) session.
+ 
 <div align="right">
    
    [Prev](what_is_an_api.md) - [Next](postman.md)
