@@ -25,7 +25,8 @@ For these exercises you will find solutions. You can view the solution by clicki
   ```
 </details>
 
-
+> :rocket: This section lists additional content you can read or watch on the topic
+> presented. 
 
 ## Sessions
 
