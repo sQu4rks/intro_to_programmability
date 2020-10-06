@@ -7,7 +7,7 @@ Academically speaking an API is
 
 In more down to earth terms:
 
-> It’s a way for two pieces of software to talk to each other
+> It’s a way for two pieces of software to talk to each other
 
 So APIs allow us to have *machines talk to machines* instead of needing humans to retrieve information and then feeding them back to the machine. This kind of access enables a variety of use cases from monitoring and automating to delivering completely new products build on-top of others. 
 
