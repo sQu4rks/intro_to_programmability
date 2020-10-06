@@ -1,5 +1,5 @@
 # What is an API?
-So what exactly is an API? The acronym stands for ***A**plication **P**rogramming **I**nterface*.
+So what exactly is an API? The acronym stands for ***A**pplication **P**rogramming **I**nterface*.
 
 Academically speaking an API is 
 
