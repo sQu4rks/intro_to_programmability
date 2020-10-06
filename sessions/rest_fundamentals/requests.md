@@ -109,6 +109,8 @@ card_code = card['cards'][0]['code']
 print("Card code is: " + str(card_code))
 ```
  
+ > :rocket: We have not covered authentication as well as other types of requests like `POST` in this section. If you are interested have a look at the additional session on [Authentication in REST](../extras/authentication_in_rest/Readme.md).
+ 
 <div align="right">
    
    [Prev](postman.md) - [Next](next_steps.md)
