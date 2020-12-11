@@ -1,6 +1,6 @@
-# Cisco Partner Interactive Webinar Series FY20 - Programmability Fundamentals
+# Introduction to Programmability with python
 
-Welcome to the FY20 edition of the partner interactive webinar (PIW) series focused on programmability. In this repository you will find a written version of the content covered during our 4 technical fundamentals sessions.
+Welcome to the "Introduction to Programmability with python" series. In this repository you will find a written version of the content covered during our 4 technical fundamentals sessions.
 
 This content is intended for you to follow along and try out. Programming is learned by doing so each section includes tips and tricks, common pitfalls and exercises with solutions for you to solve. 
 
