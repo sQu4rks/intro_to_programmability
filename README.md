@@ -36,9 +36,9 @@ Python is one of the most popular programming languages of our time and the powe
 In part one of this three-parted training we will start from scratch and get familiar with the basic concepts of python like variables, loops and functions.
 [Go to session](sessions/python_one/Readme.md)
 
-In part two of this three-parted training we will build on the basics from last week to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with some of the useful modules that come included with the python standard library. [Go to session](sessions/python_two/Readme.md)
+In part two of this three-parted training we will build on the basics from the last session to explore some more advanced data structures like dictionaries and sets. We will also get acquainted with some of the useful modules that come included with the python standard library. [Go to session](sessions/python_two/Readme.md)
 
-In the final part of this three-parted training we will use the knowledge acquired over the past weeks to build a small python project from start to finish [Go to  session](sessions/python_three/Readme.md)
+In the final part of this three-parted training we will use the knowledge acquired over the past sessions to build a small python project from start to finish [Go to  session](sessions/python_three/Readme.md)
 
 ### REST API Fundamentals
 REST (Representational state transfer) is the most common API framework based on HTTP(S) and an essential part of Programmability. In this session we will provide you with the technical background on REST API as well as a practical introduction on how to consume and use REST APIs with python. [Go to session](sessions/rest_fundamentals/Readme.md)
