@@ -73,7 +73,7 @@ Be aware that the range you specify always **excludes** the last number of you r
   ```python
   
   for a in range(1, 6):
-    print("This is the " + str(i) + ". iteration")
+    print("This is the " + str(a) + ". iteration")
   ```
 </details>
 
@@ -90,6 +90,7 @@ Be aware that the range you specify always **excludes** the last number of you r
   
   for host_part in range(0, 256):
     ip_address = "192.168.0." + str(host_part)
+    print(ip_address)
   ```
 </details>
 
